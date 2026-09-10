@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Times e Jogadores</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1>Times e Jogadores</h1>
+
+    <h2>Times</h2>
+
+    <form id="form-time">
+        <input type="hidden" id="time-id">
+        <input type="text" id="time-nome" placeholder="Nome do time" required>
+        <input type="text" id="time-cidade" placeholder="Cidade" required>
+        <input type="number" id="time-ano" placeholder="Ano de fundação">
+        <button type="submit">Salvar</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Cidade</th>
+                <th>Ano</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="tabela-times"></tbody>
+    </table>
+
+    <h2>Jogadores</h2>
+
+    <form id="form-jogador">
+        <input type="hidden" id="jogador-id">
+        <input type="text" id="jogador-nome" placeholder="Nome do jogador" required>
+        <input type="text" id="jogador-posicao" placeholder="Posição" required>
+        <input type="number" id="jogador-idade" placeholder="Idade">
+        <select id="jogador-time" required></select>
+        <button type="submit">Salvar</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Posição</th>
+                <th>Idade</th>
+                <th>Time</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="tabela-jogadores"></tbody>
+    </table>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

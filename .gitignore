@@ -1,0 +1,9 @@
+# ambiente virtual: cada pessoa recria o seu com o requirements.txt
+.venv/
+
+# cache de bytecode gerado pelo Python a cada execução
+__pycache__/
+*.pyc
+
+# banco de dados local: é gerado pelo criar_tabelas(), não é código-fonte
+*.db
