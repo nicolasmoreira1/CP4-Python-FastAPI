@@ -55,3 +55,9 @@ frontend/
   css/style.css
   js/script.js
 ```
+
+## Integrantes
+Nicolas Moreira Silva RM571510
+Henrique Vieira Ferreira RM569586
+Leonardo Gracioli Barrocal RM571031
+Valdemar da Rocha Formiga Neto RM573382
